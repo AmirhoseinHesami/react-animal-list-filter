@@ -35,7 +35,6 @@ function App() {
         onChange={(e) => search(e.target.value)}
       />
 
-      {console.log("uo")}
       <ul>
         {animals.map((animal, i) => {
           return <Animal key={animal.id} {...animal} index={i} />;
